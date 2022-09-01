@@ -1,0 +1,140 @@
+.main {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: grey;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  height: 48px;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  color: #003570;
+  font-size: 32px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  text-align: end;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-right: 16px;
+}
+
+.search-bar button, input, select {
+  border: 0px;
+  border-radius: 2px;
+}
+
+.search-bar button:focus, input:focus, select:focus {
+  outline: none;
+  border: 1px solid;
+  border-color: #444;
+}
+
+.search-bar {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+}
+
+.search-bar button, input, select {
+  color: #003570;
+}
+
+input, select {
+  background-color: rgb(247, 248, 249);
+}
+
+.search-bar button {
+  background-color: rgb(255, 240, 75);
+}
+
+.search-bar button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.log {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.log a {
+  color: #003570;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 1px dotted;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.log a:hover {
+  opacity: 90%;
+  scale: 110%;
+  transition: ease-in 0.2s;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  background-color: #FFF;
+}
+
+.form * {
+  padding: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin: 1px;
+  font-weight: 700;
+  margin-right: 1px;
+}
+
+.form div {
+  flex-basis: 40%;
+  background-color: rgb(247, 248, 249);
+  display: flex;
+  vertical-align: middle;
+}
+
+.form div {
+  display: flex;
+}
+
+.form div span {
+  width: 10%;
+}
+
+.form div select, .form div input {
+  width: 90%;
+}
+
+.form button {
+  flex-basis: 20%;
+  height: 70%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+}/*# sourceMappingURL=nav.css.map */

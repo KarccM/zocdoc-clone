@@ -1,0 +1,159 @@
+ @use '../variables/colors' as *;
+
+.main {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border : {
+        bottom: 1px solid;
+        color: grey;
+    }
+}
+div{
+    margin: 0px;
+    padding: 0px;    
+}
+.nav{
+    height: 48px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    color: $blue;
+    font : {
+        size:32px;    
+        family: 'PT Serif', serif;
+        weight: 600;
+    };    
+    text : {
+        align: end;
+        decoration:none;
+    };
+    margin : auto {
+        top: 8px;
+        bottom: 8px;
+    };
+    padding-right: 16px;
+}
+
+
+%inputs {
+    border: 0px{
+        radius:2px;
+    };
+}
+
+%inputs:focus {
+    outline: none;
+    border: 1px solid{
+        color:$black;
+    };
+}
+
+.search-bar{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+}
+
+.search-bar button ,input,select {
+    @extend  %inputs;    
+    color: $blue;
+}
+
+input,select{
+    background-color:$inputFiled;
+}
+
+.search-bar button{
+    background-color: $yellow;
+}
+
+.search-bar button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.log{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px {
+        right: 20px;
+    };
+    padding: 10px{
+        top: 0px;
+        bottom: 0px;
+    };
+}
+
+.log a{
+    color :$blue;
+    text : {
+        decoration: none;
+    }
+    font : {
+        weight: 700;
+    }
+    border-bottom: 1px dotted;
+    margin: 0px    {
+        left:10px
+    };
+}
+
+.log a:hover{
+    opacity: 90%;
+    scale: 110%;
+    transition: ease-in .2s;
+}
+
+.form { 
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.form *{
+    padding: 4px{
+        right: 8px;
+        left: 8px;
+    };
+    margin: 1px;
+    font-weight: 700;
+    margin-right: 1px;
+}
+
+.form div { 
+    flex-basis: 40%;
+    background-color: $inputFiled;
+    display: flex;
+    vertical-align: middle;
+}
+.form div{
+    display: flex;
+}
+.form div span {
+    width: 10%;
+}
+.form div select ,.form div input{
+    width: 90%;
+}
+.form button{
+    flex-basis: 20%;
+    height: 70%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}

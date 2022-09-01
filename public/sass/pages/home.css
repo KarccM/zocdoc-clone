@@ -1,0 +1,38 @@
+.cards-container {
+  width: 70%;
+  display: flex;
+  padding: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.cards-container * {
+  margin-right: 10px;
+}
+
+.titles {
+  width: 20%;
+}
+
+.home-page {
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #DCE9FD;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titles h1 {
+  color: #003570;
+}
+
+.titles h2 {
+  color: #444;
+}/*# sourceMappingURL=home.css.map */

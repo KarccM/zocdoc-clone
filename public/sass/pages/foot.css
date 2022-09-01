@@ -1,0 +1,16 @@
+.foot {
+  width: 100%;
+  display: flex;
+  color: #444;
+}
+
+.foot div {
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.foot a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  color: #003570;
+}/*# sourceMappingURL=foot.css.map */

@@ -1,0 +1,85 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #c3c3c3;
+  padding: 14px;
+  padding-left: 25px;
+  line-height: 1.4rem;
+  box-shadow: 2px 2px 8px 0px #AAAAAA;
+}
+
+.up-section {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.img-container {
+  position: relative;
+  width: 40%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.card-img {
+  border-radius: 9999px;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  top: -55px;
+}
+
+.img-context {
+  padding-left: 20px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  color: #003570;
+  line-height: 2rem;
+}
+
+.role {
+  color: #003570;
+}
+
+.dev {
+  color: #444;
+}
+
+.desc {
+  margin-top: 12px;
+  line-height: 1rem;
+}
+
+.recommended {
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #DCE9FD;
+  display: flex;
+  vertical-align: middle;
+  padding: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #003570;
+  font-weight: 100;
+}
+
+.desc button {
+  display: block;
+  margin-top: 8px;
+  border: 1px solid;
+  color: #003570;
+  background-color: #DCE9FD;
+  padding: 6px;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.desc button:hover {
+  opacity: 80%;
+}/*# sourceMappingURL=card.css.map */

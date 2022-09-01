@@ -1,0 +1,30 @@
+.big-card {
+  display: flex;
+  width: 80%;
+  background-color: #232323;
+  color: white;
+  margin: auto;
+  height: 600px;
+  padding: 20px;
+}
+
+.big-card-img {
+  width: 50%;
+  position: relative;
+}
+
+.big-card-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.big-card-details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 50%;
+}/*# sourceMappingURL=big-card.css.map */

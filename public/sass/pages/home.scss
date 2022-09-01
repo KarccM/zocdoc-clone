@@ -1,0 +1,37 @@
+@use '../variables/colors' as *;
+
+.cards-container{
+    width: 70%;
+    display: flex;
+    padding: 20px{
+        top: 60px;
+        bottom: 40px;
+    };
+}
+
+.cards-container *{
+    margin-right: 10px;
+}
+.titles{
+    width: 20%;
+}
+.home-page{
+    margin: 10px {
+        top:20px;
+        bottom: 20px;
+    };
+    display: flex;
+    justify-content: center;
+    background-color: $homepage-background;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titles h1 {
+    color: $blue;
+}
+.titles h2{
+    color:$black;
+}
